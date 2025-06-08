@@ -5,18 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64b106e1-5b1a-4b54-bdf0-d7db770f4ee2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/api/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/projectController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/db/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/projectRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +39,9 @@
       <list>
         <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,15 +82,22 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "npm.Client: Start.executor": "Run",
+    "npm.Server: Dev.executor": "Run",
+    "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="npm.Client: Start">
     <configuration name="Client: Start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="start" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
       <node-interpreter value="project" />
+      <package-manager value="yarn" />
       <envs />
       <method v="2" />
     </configuration>
@@ -87,13 +108,30 @@
         <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="npm.Server: Dev" />
       <item itemvalue="npm.Client: Start" />
+      <item itemvalue="npm.start" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -110,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749327126023</updated>
-      <workItem from="1749327127359" duration="1092000" />
+      <workItem from="1749327127359" duration="13024000" />
     </task>
     <servers />
   </component>
