@@ -53,13 +53,10 @@ const exampleComponents = [
 
 export function AppNavBar() {
     return (
-        <NavigationMenu viewport={false}>
+        <NavigationMenu viewport={false} className="mx-auto items-start py-5">
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <CarouselButton/>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <NavigationMenuTrigger>Home</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Coursework</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-3">

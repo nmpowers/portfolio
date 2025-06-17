@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64b106e1-5b1a-4b54-bdf0-d7db770f4ee2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/app-navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/app-sidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/carousel-button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/app-navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/app-navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/carousel-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/carousel-button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749327126023</updated>
-      <workItem from="1749327127359" duration="28771000" />
+      <workItem from="1749327127359" duration="44521000" />
     </task>
     <servers />
   </component>

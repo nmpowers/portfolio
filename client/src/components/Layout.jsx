@@ -8,8 +8,11 @@ export function Layout({ children }) {
     return (
         <SidebarProvider>
             <AppSidebar />
-            <main>
+            <main className="flex flex-1 flex-col">
+                <div className="p-4">
                 <SidebarTrigger />
+                </div>
+                <CarouselButton/>
                 <AppNavBar/>
                 {children}
             </main>
